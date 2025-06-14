@@ -66,6 +66,11 @@ Outra opção para colocar fontes
             font-size: 3.5vw;
         }
 
+        #conteudo > p {
+            padding-bottom: 2em;
+            padding-left: 2px;
+        }
+
         #conteudo > div.normal{
             padding: 10vh 20px 10vh;
             line-height: 2em;
@@ -73,6 +78,21 @@ Outra opção para colocar fontes
         #conteudo > div.imagem {
             padding: 10vh 20px 10vh;
             line-height: 2em;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #conteudo > #img01 {
+            background-image: url(imagens/background001.jpg);
+            background-position: right center;
+            box-shadow: inset 3px 3px 10px 0px black;
+            
+        }
+
+        #conteudo > #img02 {
+            background-image: url(background002.jpg);
+            background-position: left center;
+            box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.644);
         }
 
         .imagem {
