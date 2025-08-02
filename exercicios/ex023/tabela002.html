@@ -24,15 +24,40 @@
         table {
             width: 500px;
             border-collapse: collapse;
-            
+            position: relative;
         }
+
+        tbody > tr:nth-child(2n-1) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 0, 0.87);
+
+        }
+
         td, th {
             padding: 10px;
             border: solid 1px black;
         }
 
         thead , tfoot {
-            background-color: rgb(177, 230, 230);
+            background-color: rgba(0, 0, 0, 0.87);
+            color: white;
+        }
+
+        tfoot > tr > th {
+            position: sticky;
+            bottom: -1px;
+            background-color:  rgba(0, 0, 0, 0.87);
+        }
+
+        tfoot > tr > td {
+            position: sticky;
+            bottom: -1px;
+            background-color:  rgba(0, 0, 0, 0.87);
         }
 
         .num {
