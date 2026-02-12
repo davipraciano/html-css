@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Mesclagem 2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 2px solid black;
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td {
+            border: 3px solid black;
+            text-align: right;
+            padding: 5px;
+        }
+
+        .num {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Mesclagem 2</h1>
+    <table>
+        <tr>
+            <td colspan="4" class="num">A</td>
+            <td rowspan="3" class="num">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="num">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="num">N</td>
+        </tr>
+    </table>
+</body>
+</html>
